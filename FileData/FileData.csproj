@@ -41,6 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FileAction.cs" />
+    <Compile Include="FileSize.cs" />
+    <Compile Include="IFile.cs" />
+    <Compile Include="FileVersion.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

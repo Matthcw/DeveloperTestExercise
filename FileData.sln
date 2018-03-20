@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileData", "FileData\FileData.csproj", "{0C777DF7-CC8E-4AC3-B3DD-075CFBC6C556}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThirdPartyTools", "ThirdPartyTools\ThirdPartyTools.csproj", "{16ADD673-64B2-43C8-92D9-EA5F2CC6863F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileDataTests", "FileDataTests\FileDataTests.csproj", "{3B73AC35-06A5-4A6A-817D-75A2A8A30DDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,15 @@ Global
 		{16ADD673-64B2-43C8-92D9-EA5F2CC6863F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16ADD673-64B2-43C8-92D9-EA5F2CC6863F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16ADD673-64B2-43C8-92D9-EA5F2CC6863F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B73AC35-06A5-4A6A-817D-75A2A8A30DDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B73AC35-06A5-4A6A-817D-75A2A8A30DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B73AC35-06A5-4A6A-817D-75A2A8A30DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B73AC35-06A5-4A6A-817D-75A2A8A30DDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9327837-8C57-4343-B833-7BE06180F1C4}
 	EndGlobalSection
 EndGlobal
